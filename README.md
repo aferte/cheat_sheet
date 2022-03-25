@@ -10,5 +10,8 @@ Set of commands or code bits I often have to google e.g. bc ordering of argument
 - amazing: git stash has a history. To recover a file: git diff stash@{i}^1 stash@{i} -- file_name (to know what i, do git stash list)
 - to not show untracked files: git status --untracked-files=no
   
+# PBS/SLURM
+
+- check nodes: pbsnodes -aSj | sort
 
 
